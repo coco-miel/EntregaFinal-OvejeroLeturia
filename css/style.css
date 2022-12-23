@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Frank Ruhl Libre', serif;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+/* --- HEADER --- */
+header{
+    background-color: #e62490;
+    padding: 15px;
+    display: flex;
+    justify-content: start;
+    align-items: center;      
+}
+
+.logo-1{
+    height: 60px;
+    margin-right: 40px;
+}
+
+header nav ul{
+    display: flex;
+    gap: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+/* ============INDEX============ */
+.bg-index{
+    background-image: url(../img/inicio/bg-index.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.banner-text{
+    width: 450px;
+    position: absolute;
+    top: 350px;
+    left: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner-text h1{
+    color: white;
+    font-size: 100px;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.banner-text h2{
+    color: white;
+    font-size: 25px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+/* ============NOSOTROS============ */
+.bg-nosotros{
+    background-image: url(../img/nosotros/bg-nosotros.jpg);
+}
+
+.small-title{
+    color: #e62490;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+
+}
+
+.all-images{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+}
+
+
+.image-width{
+    width: 25%;
+}
+
+.image{
+    border-radius: 40px;
+    padding: 5%;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+
+}
+
+figcaption{
+    color: #575757;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+
+/* ============SERVICIOS============ */
+.bg-servicios{
+    background-image: url(../img/servicios/bg-servicios.jpg);
+}
+
+.servicio-text{
+    color: #000000;
+    text-indent: 50px;
+    font-size: 20px;
+    text-align: justify;
+    margin: 50px;
+}
+
+/* ============GALERIA============ */
+.bg-galeria{
+    background-image: url(../img/galeria/bg-galeria.jpg);
+}
+
+
+/* ============CONTACTO============ */
+.bg-contacto{
+    background-image: url(../img/contacto/bg-contacto.jpg);
+}
+.forms{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 300px;
+    margin: 50px;
+}
+.input-field{
+    width: 500px;
+    height: 30px;
+    padding-left: 10px;
+}
+.text-field{
+    height: 150px;
+    padding-top: 20px;
+}
+
+.button{
+    margin: 0;
+    background-color: #e62490;
+    font-size: 1.1rem;
+    color: white;
+    border-radius: 8px;
+    padding: 10px;
+    border: 2px solid #e62490;
+}
+
+/* --- FOOTER --- */
+footer{
+    background-color: #e62490;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;     
+} 
+
+.logo-social{
+    height: 40px;
+    margin-right: 10px;
+}
+
