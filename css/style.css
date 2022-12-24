@@ -10,47 +10,33 @@ ul, ol{
 }
 
 /* --- HEADER --- */
-header{
-    background-color: #e62490;
-    padding: 15px;
-    display: flex;
-    justify-content: start;
-    align-items: center;      
+.navMenu a{
+    color: white;
+    font-size: 17px;
 }
 
 .logo-1{
-    height: 60px;
-    margin-right: 40px;
-}
-
-header nav ul{
-    display: flex;
-    gap: 20px;
-}
-
-nav a{
-    text-decoration: none;
-    color: white;
+    margin-left: 10px;
+    padding-bottom: 5px;
+    width: 60px;
 }
 
 /* ============INDEX============ */
-.bg-index{
+.main-banner{
     background-image: url(../img/inicio/bg-index.jpg);
-    background-position: center;
-    background-size: cover;
     height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-clip: content-box;
+    background-position-x: right;
 
 }
 
 .banner-text{
     width: 450px;
     position: absolute;
-    top: 350px;
-    left: 200px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+    top: 40vh;
+    left: 10vw;
 }
 
 .banner-text h1{
@@ -133,45 +119,27 @@ figcaption{
 .bg-contacto{
     background-image: url(../img/contacto/bg-contacto.jpg);
 }
-.forms{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    height: 300px;
-    margin: 50px;
-}
-.input-field{
-    width: 500px;
-    height: 30px;
-    padding-left: 10px;
-}
-.text-field{
-    height: 150px;
-    padding-top: 20px;
+
+.button-color{
+    background-color: #e62490;
+    border: 2px solid #e62490;
+    transition: 0.3s ease-in;
 }
 
-.button{
-    margin: 0;
-    background-color: #e62490;
-    font-size: 1.1rem;
-    color: white;
-    border-radius: 8px;
-    padding: 10px;
+.button-color:hover{
     border: 2px solid #e62490;
+    color: #e62490;
+    background-color: white;
 }
 
 /* --- FOOTER --- */
 footer{
     background-color: #e62490;
     padding: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;     
 } 
 
 .logo-social{
-    height: 40px;
+    width: 40px;
     margin-right: 10px;
 }
 
