@@ -13,59 +13,62 @@
 
 <!-- HEADER -->
 <body>
-    <header class="main-banner bg-contacto">
+    <header class="main-banner">
         <nav class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand" href="../index.html"><img class="logo-1" src="../img/logo/logo1.png" alt="Logo Regina"></a>
-        <div class="container-fluid navMenu">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" href="../index.html">INICIO</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/views/nosotros.html">NOSOTROS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/views/servicios.html">SERVICIOS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/views/galeria.html">GALERIA</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="/views/contacto.html">CONTACTO</a>
-                    </li>
-                </ul>
+            <a class="navbar-brand" href="../index.html">
+                <img class="logo-1" src="../img/logo/logo1.png" alt="Logo Regina">
+            </a>
+            <div class="container-fluid navMenu">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">INICIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="nosotros.html">NOSOTROS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="servicios.html">SERVICIOS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="galeria.html">GALERIA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">CONTACTO</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
-</header>
+         </nav>
+    </header>
 
 <!-- CONTENT -->
     <main>
+        <section class="container-header position-absolute">
+            <div class="d-flex justify-content-center flex-column align-items-center">
+                <h1 class="fade-in text-center">CONTACTO</h1>
+                <h2 class="fade-in-slow text-center">Lorem ipsum dolor sit amet.</h2>
+            </div>
+        </section>
         <section>
-            <div class="banner-text text-center">
-                <h1 class="fade-in">CONTACTO</h1>
-                <h2 class="fade-in-slow">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+            <div class="d-flex justify-content-center align-items-center">
+                <h3 class="small-title text-center my-5">DEJANOS TU CONSULTA</h3>
             </div>
         </section>
         <section class="container form-width">
             <div class="row">
-                <div>
-                    <h3 class="small-title ">DEJANOS TU CONSULTA</h3>
-                    <form action="">
-                        <input type="text" class="form-control mb-3" placeholder="Nombre y Apellido">
-                        <input type="email" class="form-control mb-3" placeholder="Email">
-                        <input type="tel" class="form-control mb-3" placeholder="Telefono">
-                        <textarea class="form-control mb-3" placeholder="Escribe aqui tu consulta"></textarea>
-                        <div class="d-flex justify-content-center">
-                            <button type="submit" class="button-color btn btn-dark mb-4">Enviar</button>
-                        </div>
-                    </form>
-                </div>
+                <form action="">
+                    <input type="text" class="form-control mb-3" placeholder="Nombre y Apellido">
+                    <input type="email" class="form-control mb-3" placeholder="Email">
+                    <input type="tel" class="form-control mb-3" placeholder="Telefono">
+                    <textarea class="form-control mb-4" placeholder="Escribe aqui tu consulta"></textarea>
+                    <div class="d-flex justify-content-center">
+                        <button type="submit" class="button-color btn btn-dark mb-5">Enviar</button>
+                    </div>
+                </form>
             </div>
         </section>
     </main>

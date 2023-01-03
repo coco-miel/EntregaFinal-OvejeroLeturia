@@ -44,43 +44,57 @@ ul, ol{
     background-size: cover;
 }
 
-.banner-text{
-    width: 70%;
-    position: absolute;
-    top: 35%;
+.container-header{
+    width: 450px;
+    top: 40vh;
+    left: 15vw;
 }
 
-.banner-text h1{
+h1{
     color: white;
-    font-size: 100px;
+    font-size: 6rem;
 }
 
-.banner-text h2{
+h2{
     color: white;
-    font-size: 25px;
+    font-size: 1.5rem;
     font-weight: lighter;
  
 }
 
-@media (max-width: 375px){
+@media (max-width: 576px){
+    .container-header {
+        height: 60vh;
+        width: 70%;
+        top: 50vh;
+        }
     .main-banner{
         background-image: url(../img/mobile/mobile-banner.png);
+
     }
-    .banner-text{
-        width: auto;
-        top: 45%;
+    h1 {
+        font-size: 4rem;
     }
-    .banner-text h1{
-        font-size: 65px;
-    }   
 }
+
+@media (min-width: 577px) and (max-width: 768px){
+    .container-header {
+        height: 50vh;
+        width: 70%;
+        top: 50vh;
+    }
+    h1 {
+        font-size: 5rem;
+    }
+}
+
 
 /* ============NOSOTROS============ */
 .bg-nosotros{
     background-image: url(../img/nosotros/bg-nosotros.jpg);
 }
 
-@media (max-width: 375px){
+@media (max-width: 576px){
     .bg-nosotros{
         background-image: url(../img/mobile/mobile-banner.png);
     }
@@ -88,47 +102,19 @@ ul, ol{
 
 .small-title{
     color: #e62490;
-    font-size: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 5%;
-
+    font-size: 2rem;
 }
 
-.all-images{
-    display: flex;
-    flex-wrap: wrap;
-    margin: 50px;
+.img-text{
+    font-size: 1.2rem;
 }
-
-.image-width{
-    width: 25%;
-}
-
-.image{
-    border-radius: 40px;
-    padding: 5%;
-    max-width: 100%;
-    height: auto;
-    vertical-align: middle;
-
-}
-
-figcaption{
-    color: #575757;
-    font-size: 20px;
-    text-align: center;
-    margin-bottom: 10%;
-}
-
 
 /* ============SERVICIOS============ */
 .bg-servicios{
     background-image: url(../img/servicios/bg-servicios.jpg);
 }
 
-@media (max-width: 375px){
+@media (max-width: 576px){
     .bg-servicios{
         background-image: url(../img/mobile/mobile-banner.png);
     }
@@ -136,10 +122,7 @@ figcaption{
 
 .servicio-text{
     color: #000000;
-    text-indent: 50px;
-    font-size: 20px;
-    text-align: justify;
-    margin: 50px;
+    font-size: 1.2rem;
 }
 
 /* ============GALERIA============ */
@@ -147,7 +130,7 @@ figcaption{
     background-image: url(../img/galeria/bg-galeria.jpg);
 }
 
-@media (max-width: 375px){
+@media (max-width: 576px){
     .bg-galeria{
         background-image: url(../img/mobile/mobile-banner.png);
     }
@@ -159,10 +142,10 @@ figcaption{
 }
 
 .form-width{
-    width: 50%;
+    width: 70%;
 }
 
-@media (max-width: 375px){
+@media (max-width: 576px){
     .bg-contacto{
         background-image: url(../img/mobile/mobile-banner.png);
     }
@@ -193,5 +176,3 @@ footer{
     width: 40px;
     margin-right: 10px;
 }
-
-

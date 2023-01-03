@@ -12,64 +12,70 @@
 
 <!-- HEADER -->
 <body>
-    <header class="main-banner bg-nosotros">
+    <header class="main-banner">
         <nav class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand" href="../index.html"><img class="logo-1" src="../img/logo/logo1.png" alt="Logo Regina"></a>
-        <div class="container-fluid navMenu">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" href="../index.html">INICIO</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/views/nosotros.html">NOSOTROS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/views/servicios.html">SERVICIOS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/views/galeria.html">GALERIA</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="/views/contacto.html">CONTACTO</a>
-                    </li>
-                </ul>
+            <a class="navbar-brand" href="../index.html">
+                <img class="logo-1" src="../img/logo/logo1.png" alt="Logo Regina">
+            </a>
+            <div class="container-fluid navMenu">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">INICIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="nosotros.html">NOSOTROS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="servicios.html">SERVICIOS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="galeria.html">GALERIA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">CONTACTO</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
-</header>
+         </nav>
+    </header>
 <!-- CONTENT -->
     <main>
-        <section>
-            <div class="banner-text text-center">
-                <h1 class="fade-in">NOSOTROS</h1>
-                <h2 class="fade-in-slow">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+        <section class="container-header position-absolute">
+            <div class="d-flex justify-content-center flex-column align-items-center">
+                <h1 class="fade-in text-center">NOSOTROS</h1>
+                <h2 class="fade-in-slow text-center">Lorem ipsum dolor sit amet.</h2>
             </div>
         </section>
         <section>
-            <h3 class="small-title">CONOCÉ EL EQUIPO DE REGINA</h3>
+            <div class="d-flex justify-content-center align-items-center">
+                <h3 class="small-title text-center my-5">CONOCÉ EL EQUIPO DE REGINA</h3>
+            </div>
         </section>
-        <section class="all-images nosotros-images">
-            <figure class="image-width">
-                <img src="../img/nosotros/1.jpg" class="image" alt="Maquillaje Regina">
-                <figcaption>Regina York - Social/Moda</figcaption>
-            </figure>
-            <figure class="image-width">
-                <img src="../img/nosotros/2.jpg" class="image" alt="Maquillaje Regina">
-                <figcaption>Gretchen Crowell - Social/Artistico</figcaption>
-            </figure>
-            <figure class="image-width">
-                <img src="../img/nosotros/3.jpg" class="image" alt="Maquillaje Regina">
-                <figcaption>Cady Melendez - Social/Moda</figcaption>
-            </figure>
-            <figure class="image-width">
-                <img src="../img/nosotros/4.jpg" class="image" alt="Maquillaje Regina">
-                <figcaption>Karen Ellison - Social/Novia</figcaption>
-            </figure>
+        <section class="container">
+            <section class="row justify-content-around">
+                <figure class="col-lg-3 col-sm-6 col-12">
+                    <img src="../img/nosotros/1.jpg" class="img-fluid rounded " alt="Maquillaje Regina">
+                    <figcaption class="figure-caption text-center img-text mb-5">Regina York - Social/Moda</figcaption>
+                </figure>
+                <figure class="col-lg-3 col-sm-6 col-12">
+                    <img src="../img/nosotros/2.jpg" class="img-fluid rounded" alt="Maquillaje Regina">
+                    <figcaption class="figure-caption text-center img-text mb-5">Gretchen Crowell - Social/Artistico</figcaption>
+                </figure>
+                <figure class="col-lg-3 col-sm-6 col-12">
+                    <img src="../img/nosotros/3.jpg" class="img-fluid rounded" alt="Maquillaje Regina">
+                    <figcaption class="figure-caption text-center img-text mb-5">Cady Melendez - Social/Moda</figcaption>
+                </figure>
+                <figure class="col-lg-3 col-sm-6 col-12">
+                    <img src="../img/nosotros/4.jpg" class="img-fluid rounded" alt="Maquillaje Regina">
+                    <figcaption class="figure-caption text-center img-text mb-5">Karen Ellison - Social/Novia</figcaption>
+                </figure>
+            </section>
+        </section>
     </main>
 
 <!-- FOOTER -->
