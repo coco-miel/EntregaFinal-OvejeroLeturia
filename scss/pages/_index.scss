@@ -1,0 +1,11 @@
+/* === INDEX === */
+.main-bg{
+    background-image: url(../img/inicio/bg-index.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+
+    @include mobile-lg(){
+        background-image: url(../img/mobile/mobile-banner.png);
+    }
+}

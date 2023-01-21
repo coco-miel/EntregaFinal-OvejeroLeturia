@@ -1,0 +1,8 @@
+/* === GALERIA === */
+.bg-galeria{
+    @extend.main-bg;
+    background-image: url(../img/galeria/bg-galeria.jpg);
+    @include mobile-lg(){
+        background-image: url(../img/mobile/mobile-banner.png);
+    }
+}

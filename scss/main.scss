@@ -1,0 +1,15 @@
+@import "./utils/variables.scss";
+@import "./utils/mixins.scss";
+
+@import "./base/reset.scss";
+@import "./base/typography.scss";
+
+@import "./components/buttons.scss";
+@import "./components/navbar.scss";
+@import "./components/footer.scss";
+
+@import "./pages/index.scss";
+@import "./pages/nosotros.scss";
+@import "./pages/servicios.scss";
+@import "./pages/galeria.scss";
+@import "./pages/contacto.scss";

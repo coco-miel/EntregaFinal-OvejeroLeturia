@@ -1,0 +1,8 @@
+/* === NOSOTROS === */
+.bg-nosotros{
+    @extend.main-bg;
+    background-image: url(../img/nosotros/bg-nosotros.jpg);
+    @include mobile-lg(){
+        background-image: url(../img/mobile/mobile-banner.png);
+    }
+}

@@ -1,0 +1,8 @@
+/* === SERVICIOS === */
+.bg-servicios{
+    @extend.main-bg;
+    background-image: url(../img/servicios/bg-servicios.jpg);
+    @include mobile-lg(){
+        background-image: url(../img/mobile/mobile-banner.png);
+    }
+}

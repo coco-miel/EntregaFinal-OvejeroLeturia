@@ -1,178 +1,155 @@
+/* --- RESET --- */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Frank Ruhl Libre', serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Frank Ruhl Libre", serif;
 }
 
-ul, ol{
-    list-style: none;
+ul, ol {
+  list-style: none;
 }
 
-
-/* --- HEADER --- */
-.navMenu a{
-    color: white;
-    font-size: 17px;
+/* --- TYPOGRAPHY --- */
+h1 {
+  color: #ffffff;
+  font-size: clamp(4rem, 7vw, 6rem);
 }
 
-.logo-1{
-    margin-left: 10px;
-    padding-bottom: 5px;
-    width: 60px;
+h2 {
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: lighter;
 }
 
-/* > ANIMATION < */
-.fade-in{
-    animation:fadeInUp 0.75s ease backwards;
+.text-position {
+  width: 450px;
+  top: 40vh;
+  left: 15vw;
 }
-
-.fade-in-slow{
-    animation:fadeInUp 1s ease backwards;
-}
-
-@keyframes fadeInUp{
-    0%{transform:translate(0px, 100px); opacity: 0;}
-    100%{transform:translate(0px, 0); opacity: 1;}
-}
-
-/* ============INDEX============ */
-.main-banner{
-    background-image: url(../img/inicio/bg-index.jpg);
-    height: 100vh;
-    background-position: center;
-    background-size: cover;
-}
-
-.container-header{
-    width: 450px;
-    top: 40vh;
-    left: 15vw;
-}
-
-h1{
-    color: white;
-    font-size: 6rem;
-}
-
-h2{
-    color: white;
-    font-size: 1.5rem;
-    font-weight: lighter;
- 
-}
-
-@media (max-width: 576px){
-    .container-header {
-        height: 60vh;
-        width: 70%;
-        top: 50vh;
-        }
-    .main-banner{
-        background-image: url(../img/mobile/mobile-banner.png);
-
-    }
-    h1 {
-        font-size: 4rem;
-    }
-}
-
-@media (min-width: 577px) and (max-width: 768px){
-    .container-header {
-        height: 50vh;
-        width: 70%;
-        top: 50vh;
-    }
-    h1 {
-        font-size: 5rem;
-    }
-}
-
-
-/* ============NOSOTROS============ */
-.bg-nosotros{
-    background-image: url(../img/nosotros/bg-nosotros.jpg);
-}
-
-@media (max-width: 576px){
-    .bg-nosotros{
-        background-image: url(../img/mobile/mobile-banner.png);
-    }
-}
-
-.small-title{
-    color: #e62490;
-    font-size: 2rem;
-}
-
-.img-text{
-    font-size: 1.2rem;
-}
-
-/* ============SERVICIOS============ */
-.bg-servicios{
-    background-image: url(../img/servicios/bg-servicios.jpg);
-}
-
-@media (max-width: 576px){
-    .bg-servicios{
-        background-image: url(../img/mobile/mobile-banner.png);
-    }
-}
-
-.servicio-text{
-    color: #000000;
-    font-size: 1.2rem;
-}
-
-/* ============GALERIA============ */
-.bg-galeria{
-    background-image: url(../img/galeria/bg-galeria.jpg);
-}
-
-@media (max-width: 576px){
-    .bg-galeria{
-        background-image: url(../img/mobile/mobile-banner.png);
-    }
-}
-
-/* ============CONTACTO============ */
-.bg-contacto{
-    background-image: url(../img/contacto/bg-contacto.jpg);
-}
-
-.form-width{
+@media (max-width: 768px) {
+  .text-position {
+    height: 40vh;
+    top: 50vh;
     width: 70%;
+  }
 }
 
-@media (max-width: 576px){
-    .bg-contacto{
-        background-image: url(../img/mobile/mobile-banner.png);
-    }
-    .form-width{
-        width: auto;
-    }
+.fade-in-text {
+  animation: fadeInUp 0.75s ease backwards;
+}
+.fade-in-text--slow {
+  animation: fadeInUp 1s ease backwards;
 }
 
-.button-color{
-    background-color: #e62490;
-    border: 2px solid #e62490;
-    transition: 0.3s ease-in;
+@keyframes fadeInUp {
+  0% {
+    transform: translate(0px, 100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0px, 0);
+    opacity: 1;
+  }
+}
+h3 {
+  color: #e62490;
+  font-size: 2rem;
 }
 
-.button-color:hover{
-    border: 2px solid #e62490;
-    color: #e62490;
-    background-color: white;
+p {
+  font-size: 1.2rem;
 }
 
-/* --- FOOTER --- */
-footer{
-    background-color: #e62490;
-    padding: 15px;
-} 
-
-.logo-social{
-    width: 40px;
-    margin-right: 10px;
+.img-text {
+  font-size: 1.2rem;
 }
+
+/* +++ BUTTONS +++ */
+.button-color {
+  background-color: #e62490;
+  border: 2px solid #e62490;
+  transition: 0.3s ease-in;
+}
+.button-color:hover {
+  border: 2px solid #e62490;
+  color: #e62490;
+  background-color: #ffffff;
+}
+
+/* +++ HEADER +++ */
+.nav-item a {
+  color: #ffffff;
+  font-size: 17px;
+}
+
+.logo-social {
+  margin-left: 10px;
+  padding-bottom: 5px;
+  width: 60px;
+}
+
+/* +++ FOOTER +++ */
+.footer-design {
+  background-color: #e62490;
+  padding: 15px;
+}
+.footer-design--logo {
+  width: 40px;
+  margin-right: 10px;
+}
+
+/* === INDEX === */
+.main-bg, .bg-contacto, .bg-galeria, .bg-servicios, .bg-nosotros {
+  background-image: url(../img/inicio/bg-index.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+@media (max-width: 768px) {
+  .main-bg, .bg-contacto, .bg-galeria, .bg-servicios, .bg-nosotros {
+    background-image: url(../img/mobile/mobile-banner.png);
+  }
+}
+
+/* === NOSOTROS === */
+.bg-nosotros {
+  background-image: url(../img/nosotros/bg-nosotros.jpg);
+}
+@media (max-width: 768px) {
+  .bg-nosotros {
+    background-image: url(../img/mobile/mobile-banner.png);
+  }
+}
+
+/* === SERVICIOS === */
+.bg-servicios {
+  background-image: url(../img/servicios/bg-servicios.jpg);
+}
+@media (max-width: 768px) {
+  .bg-servicios {
+    background-image: url(../img/mobile/mobile-banner.png);
+  }
+}
+
+/* === GALERIA === */
+.bg-galeria {
+  background-image: url(../img/galeria/bg-galeria.jpg);
+}
+@media (max-width: 768px) {
+  .bg-galeria {
+    background-image: url(../img/mobile/mobile-banner.png);
+  }
+}
+
+/* === CONTACTO === */
+.bg-contacto {
+  background-image: url(../img/contacto/bg-contacto.jpg);
+}
+@media (max-width: 768px) {
+  .bg-contacto {
+    background-image: url(../img/mobile/mobile-banner.png);
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
