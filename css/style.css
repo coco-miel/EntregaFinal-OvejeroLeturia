@@ -22,13 +22,13 @@ h2 {
   font-weight: lighter;
 }
 
-.text-position {
+.header-position {
   width: 450px;
   top: 40vh;
   left: 15vw;
 }
 @media (max-width: 768px) {
-  .text-position {
+  .header-position {
     height: 40vh;
     top: 50vh;
     width: 70%;
@@ -77,6 +77,11 @@ p {
   background-color: #ffffff;
 }
 
+textarea {
+  resize: none;
+  height: 180px;
+}
+
 /* +++ HEADER +++ */
 .nav-item a {
   color: #ffffff;
@@ -94,9 +99,9 @@ p {
   background-color: #e62490;
   padding: 15px;
 }
-.footer-design--logo {
-  width: 40px;
-  margin-right: 10px;
+.footer-design__icon {
+  font-size: 2rem;
+  color: #ffffff;
 }
 
 /* === INDEX === */
@@ -150,6 +155,11 @@ p {
   .bg-contacto {
     background-image: url(../img/mobile/mobile-banner.png);
   }
+}
+
+.contacto-icon {
+  font-size: 2rem;
+  color: #e62490;
 }
 
 /*# sourceMappingURL=style.css.map */

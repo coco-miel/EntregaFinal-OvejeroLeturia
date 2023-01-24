@@ -2,9 +2,9 @@
 .footer-design{
     background-color: $main-color;
     padding: 15px;
-    &--logo{
-        width: 40px;
-        margin-right: 10px;
+    &__icon{
+        font-size: 2rem;
+        color:$secondary-color;
     }
 } 
 
