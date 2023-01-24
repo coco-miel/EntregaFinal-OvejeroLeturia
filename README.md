@@ -1,5 +1,5 @@
 # HTML/SCSS/BOOTSTRAP
-## REGINA | Servicios de maquillaje profesional
+## REGINA | Estudio de Maquillaje Profesional
 */index/*
 >Pagina principal del sitio
 >
