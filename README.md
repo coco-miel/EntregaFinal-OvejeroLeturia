@@ -1,7 +1,7 @@
 # REGINA | Estudio de Maquillaje Profesional
 ![regina](https://user-images.githubusercontent.com/114772573/217278420-7783d2b0-1254-4ad4-b3c5-99bd1fe0d0d3.png)
 
-## El sitio fue desarollado con:
+## Este sitio web fue desarollado con:
 - HTML
 - CSS
 - SASS
