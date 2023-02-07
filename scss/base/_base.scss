@@ -1,0 +1,68 @@
+/* --- BASE --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Frank Ruhl Libre', serif;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header-position{
+    width: 450px;
+    top: 40vh;
+    left: 15vw;
+    @include mobile-lg(){
+        height: 40vh;
+        top: 50vh;
+        width: 70%;
+    }
+}
+
+h1{
+    font-size: clamp(4rem, 7vw, 6rem );
+    
+}
+
+h2{
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+
+h3{
+    color: $main-color;
+    font-size: 2rem;
+}
+
+p{
+    font-size: 1.2rem;
+}
+
+mark{
+    background-color: #c8e1f7;
+}
+
+.img-text{
+    font-size: 1.2rem;
+}
+
+.fade-in-text{
+    animation:fadeInUp 0.75s ease backwards;
+    &--slow{
+        animation:fadeInUp 1s ease backwards;
+    }
+}
+
+@keyframes fadeInUp{
+    0%{transform:translate(0px, 100px); opacity: 0;}
+    100%{transform:translate(0px, 0); opacity: 1;}
+}
+
+
+ 

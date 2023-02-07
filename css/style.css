@@ -1,4 +1,4 @@
-/* --- RESET --- */
+/* --- BASE --- */
 * {
   margin: 0;
   padding: 0;
@@ -10,16 +10,8 @@ ul, ol {
   list-style: none;
 }
 
-/* --- TYPOGRAPHY --- */
-h1 {
-  color: #ffffff;
-  font-size: clamp(4rem, 7vw, 6rem);
-}
-
-h2 {
-  color: #ffffff;
-  font-size: 1.5rem;
-  font-weight: lighter;
+a {
+  text-decoration: none;
 }
 
 .header-position {
@@ -33,6 +25,32 @@ h2 {
     top: 50vh;
     width: 70%;
   }
+}
+
+h1 {
+  font-size: clamp(4rem, 7vw, 6rem);
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+
+h3 {
+  color: #e62490;
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+mark {
+  background-color: #c8e1f7;
+}
+
+.img-text {
+  font-size: 1.2rem;
 }
 
 .fade-in-text {
@@ -52,19 +70,6 @@ h2 {
     opacity: 1;
   }
 }
-h3 {
-  color: #e62490;
-  font-size: 2rem;
-}
-
-p {
-  font-size: 1.2rem;
-}
-
-.img-text {
-  font-size: 1.2rem;
-}
-
 /* +++ BUTTONS +++ */
 .button-color {
   background-color: #e62490;
@@ -74,7 +79,16 @@ p {
 .button-color:hover {
   border: 2px solid #e62490;
   color: #e62490;
-  background-color: #ffffff;
+  background-color: white;
+}
+
+.icon {
+  font-size: 2rem;
+  color: #e62490;
+}
+.icon--alt {
+  font-size: 2.5rem;
+  color: white;
 }
 
 textarea {
@@ -82,26 +96,22 @@ textarea {
   height: 180px;
 }
 
-/* +++ HEADER +++ */
+/* +++ NAVBAR +++ */
 .nav-item a {
-  color: #ffffff;
+  color: white;
   font-size: 17px;
 }
 
-.logo-social {
+.logo{
   margin-left: 10px;
   padding-bottom: 5px;
   width: 60px;
 }
 
 /* +++ FOOTER +++ */
-.footer-design {
+footer {
   background-color: #e62490;
   padding: 15px;
-}
-.footer-design__icon {
-  font-size: 2rem;
-  color: #ffffff;
 }
 
 /* === INDEX === */
@@ -117,6 +127,10 @@ textarea {
   }
 }
 
+.bg-color-index {
+  background: #f03da3;
+}
+
 /* === NOSOTROS === */
 .bg-nosotros {
   background-image: url(../img/nosotros/bg-nosotros.jpg);
@@ -125,6 +139,11 @@ textarea {
   .bg-nosotros {
     background-image: url(../img/mobile/mobile-banner.png);
   }
+}
+
+.img-size {
+  max-width: 50%;
+  height: auto;
 }
 
 /* === SERVICIOS === */
@@ -155,11 +174,6 @@ textarea {
   .bg-contacto {
     background-image: url(../img/mobile/mobile-banner.png);
   }
-}
-
-.contacto-icon {
-  font-size: 2rem;
-  color: #e62490;
 }
 
 /*# sourceMappingURL=style.css.map */
