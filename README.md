@@ -9,7 +9,7 @@
 
 ## Tiene 5 secciones principales:
 - inicio (pagina principal del sitio)
-- nosotros (contiene informacion acerca del equipo de Regina)
-- servicios (contiene informacion acerca de los servicios que se ofrecen)
+- nosotros (informacion acerca del equipo de Regina)
+- servicios (informacion acerca de los servicios que se ofrecen)
 - galeria (galeria de imagenes, que funciona como el portafolio del sitio)
 - contacto (informacion de contacto del sitio, con google maps y formulario que se puede rellenar para consultas)
