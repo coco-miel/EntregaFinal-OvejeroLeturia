@@ -43,14 +43,11 @@ h3 {
 
 p {
   font-size: 1.2rem;
+  line-height: 35px;
 }
 
 mark {
   background-color: #c8e1f7;
-}
-
-.img-text {
-  font-size: 1.2rem;
 }
 
 .fade-in-text {
@@ -82,6 +79,7 @@ mark {
   background-color: white;
 }
 
+/* +++ ICONS +++ */
 .icon {
   font-size: 2rem;
   color: #e62490;
@@ -102,7 +100,7 @@ textarea {
   font-size: 17px;
 }
 
-.logo{
+.logo {
   margin-left: 10px;
   padding-bottom: 5px;
   width: 60px;
@@ -127,8 +125,12 @@ footer {
   }
 }
 
-.bg-color-index {
-  background: #f03da3;
+.highlighter-title {
+  background-color: #f03da3;
+  border-radius: 20px;
+}
+.highlighter-title--alt {
+  background-color: #f03da3;
 }
 
 /* === NOSOTROS === */
@@ -139,11 +141,6 @@ footer {
   .bg-nosotros {
     background-image: url(../img/mobile/mobile-banner.png);
   }
-}
-
-.img-size {
-  max-width: 50%;
-  height: auto;
 }
 
 /* === SERVICIOS === */
@@ -164,6 +161,10 @@ footer {
   .bg-galeria {
     background-image: url(../img/mobile/mobile-banner.png);
   }
+}
+
+.img-text {
+  font-size: 1.3rem;
 }
 
 /* === CONTACTO === */

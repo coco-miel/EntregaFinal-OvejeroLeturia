@@ -15,113 +15,105 @@
     <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400;600;700&display=swap"
         rel="stylesheet">
 </head>
-
+<!-- HEADER -->
 <body>
-
-    <!-- HEADER -->
-
-    <body>
-        <header class="bg-contacto mb-5">
-            <nav class="navbar navbar-expand-md navbar-dark">
-                <a class="navbar-brand" href="../index.html">
-                    <img class="logo" src="../img/logo/logo1.png" alt="Logo Regina">
-                </a>
-                <div class="container-fluid nav-menu">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                            <li class="nav-item">
-                                <a class="nav-link" href="../index.html">INICIO</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="nosotros.html">NOSOTROS</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="servicios.html">SERVICIOS</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="galeria.html">GALERIA</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="contacto.html">CONTACTO</a>
-                            </li>
-                        </ul>
-                    </div>
+    <header class="bg-contacto mb-5">
+        <nav class="navbar navbar-expand-md navbar-dark">
+            <a class="navbar-brand" href="../index.html">
+                <img class="logo" src="../img/logo/logo1.png" alt="Logo Regina">
+            </a>
+            <div class="container-fluid nav-menu">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">INICIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="nosotros.html">NOSOTROS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="servicios.html">SERVICIOS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="galeria.html">GALERIA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">CONTACTO</a>
+                        </li>
+                    </ul>
                 </div>
-            </nav>
-            <section class="header-position position-absolute">
-                <div class="text-center d-flex justify-content-center flex-column align-items-center">
-                    <h1 class="fade-in-text text-white">CONTACTO</h1>
-                    <h2 class="fade-in-text--slow text-white">Comunícate con nosotros</h2>
-                </div>
-            </section>
-        </header>
-        <!-- CONTENT -->
-        <main>
-            <section class="container text-center">
-                <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4">
-                    <div class="col">
-                        <i class="bi bi-geo-alt-fill icon"></i>
-                        <p><small>Obelisco, Av. 9 de Julio </small></p>
-                    </div>
-                    <div class="col">
-                        <i class="bi bi-telephone-fill icon"></i>
-                        <p><small>(+5411) 1234-5678</small></p>
-                    </div>
-                    <div class="col">
-                        <i class="bi bi-envelope-fill icon"></i>
-                        <p><small>info@regina.com</small></p>
-                    </div>
-                    <div class="col">
-                        <i class="bi bi-clock-fill icon"></i>
-                        <p><small>Lunes a Sábados de 7 a 20 hs</small></p>
-                    </div>
-                </div>
-            </section>
-            <section class="container">
-                <div class="row row-cols-1 row-cols-lg-2">
-                    <div class="col mt-5">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13136.066850016401!2d-58.3815704!3d-34.6037389!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x11bead4e234e558b!2sObelisco!5e0!3m2!1ses-419!2sar!4v1674535892526!5m2!1ses-419!2sar"
-                            width="100%" height="500px" style="border:0;" allowfullscreen="" loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                    <div class="col my-5">
-                        <form>
-                            <label for="nombre-usuario" class="form-label">Nombre y Apellido:</label>
-                            <input type="text" class="form-control" name="nombre-usuario" id="nombre-usuario">
-                            <label for="email-usuario" class="form-label">Email:</label>
-                            <input type="email" class="form-control" name="email-usuario" id="email-usuario">
-                            <label for="tel-usuario" class="form-label">Teléfono:</label>
-                            <input type="tel" class="form-control" name="tel-usuario" id="tel-usuario">
-                            <label for="consulta-usuario" class="form-label">Escribe aquí tu consulta:</label>
-                            <textarea class="form-control mb-4" name="consulta-usuario"  id="consulta-usuario"></textarea>
-                            <div class="d-flex justify-content-center mb-5">
-                                <button type="submit" class="button-color btn btn-dark">Enviar</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </section>
-        </main>
-
-        <!-- FOOTER -->
-        <footer>
-            <div class="text-center">
-                <a href="#"><i class="bi bi-facebook icon--alt mx-2"></i></a>
-                <a href="#"> <i class="bi bi-instagram icon--alt mx-2"></i></a>
-                <a href="#"><i class="bi bi-youtube icon--alt mx-2"></i></a>
             </div>
-        </footer>
-
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-            crossorigin="anonymous"></script>
-
-    </body>
-
+        </nav>
+        <section class="header-position position-absolute">
+            <div class="text-center d-flex justify-content-center flex-column align-items-center">
+                <h1 class="fade-in-text text-white">CONTACTO</h1>
+                <h2 class="fade-in-text--slow text-white">Comunícate con nosotros</h2>
+            </div>
+        </section>
+    </header>
+<!-- CONTENT -->
+    <main>
+        <div class="container text-center">
+            <section class="row row-cols-1 row-cols-sm-2 row-cols-lg-4">
+                <div class="col">
+                    <i class="bi bi-geo-alt-fill icon"></i>
+                    <p><small>Obelisco, Av. 9 de Julio </small></p>
+                </div>
+                <div class="col">
+                    <i class="bi bi-telephone-fill icon"></i>
+                    <p><small>(+5411) 1234-5678</small></p>
+                </div>
+                <div class="col">
+                    <i class="bi bi-envelope-fill icon"></i>
+                    <p><small>info@regina.com</small></p>
+                </div>
+                <div class="col">
+                    <i class="bi bi-clock-fill icon"></i>
+                    <p><small>Lunes a Sábados de 7 a 20 hs</small></p>
+                </div>
+            </section>
+        </div>
+        <div class="container">
+            <div class="row row-cols-1 row-cols-lg-2">
+                <section class="col mt-5">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13136.066850016401!2d-58.3815704!3d-34.6037389!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x11bead4e234e558b!2sObelisco!5e0!3m2!1ses-419!2sar!4v1674535892526!5m2!1ses-419!2sar"
+                        width="100%" height="500px" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </section>
+                <section class="col my-5">
+                    <form id="formulario-consultas">
+                        <label for="nombre-usuario" class="form-label">Nombre y Apellido:</label>
+                        <input type="text" class="form-control" name="nombre-usuario" id="nombre-usuario">
+                        <label for="email-usuario" class="form-label">Email:</label>
+                        <input type="email" class="form-control" name="email-usuario" id="email-usuario">
+                        <label for="tel-usuario" class="form-label">Teléfono:</label>
+                        <input type="tel" class="form-control" name="tel-usuario" id="tel-usuario">
+                        <label for="consulta-usuario" class="form-label">Escribe aquí tu consulta:</label>
+                        <textarea class="form-control mb-4" name="consulta-usuario" id="consulta-usuario"></textarea>
+                        <div class="d-flex justify-content-center mb-5">
+                            <button type="submit" class="button-color btn btn-dark">Enviar</button>
+                        </div>
+                    </form>
+                </section>
+            </div>
+        </div>
+    </main>
+<!-- FOOTER -->
+    <footer>
+        <div class="text-center">
+            <a href="#"><i class="bi bi-facebook icon--alt mx-2"></i></a>
+            <a href="#"> <i class="bi bi-instagram icon--alt mx-2"></i></a>
+            <a href="#"><i class="bi bi-youtube icon--alt mx-2"></i></a>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
 </html>

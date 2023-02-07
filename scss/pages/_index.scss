@@ -10,6 +10,10 @@
     }
 }
 
-.bg-color-index{
-    background:#f03da3;
+.highlighter-title{
+    background-color:#f03da3;
+    border-radius: 20px;
+    &--alt{
+        background-color:#f03da3;
+    }
 }
